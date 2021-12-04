@@ -24,12 +24,23 @@
     border-radius: 1rem;
     padding: 1rem;
     margin: 0.2rem 0.5rem;
+    transition: opacity 400ms;
 }
 
-.activity-feed .one-call .first-line{
+.activity-feed .one-call .first-line {
     display: flex;
 }
 
-.activity-feed .one-call .first-line button{
+.activity-feed .one-call .first-line button {
     margin-left: auto;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.2rem 0.4rem;
+    transition: 200ms ease-in-out;
+    background-color: rgb(221, 234, 252);
+}
+
+.activity-feed .one-call .first-line button:hover {
+    background-color: cadetblue;
+    color: white;
 }
