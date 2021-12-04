@@ -1,16 +1,25 @@
 .activity-detail{
     background-color: white;
-    margin: 3rem;
-    padding: 2rem ;
-    border-radius: 2rem;
+    margin: 3rem 2rem;
+    padding: 1.5rem ;
+    border-radius: 0.6rem;
     box-shadow:  0 0.1rem 0.3rem rgb(0, 0, 0);
 }
 
 .activity-detail p{    
-    color: rgb(151,151,151);
+    color: black;
 }
 
 .activity-detail p span{    
     font-weight: bold;
     font-size: 1.5rem;
+    color: rgb(151,151,151);
+}
+
+.activity-detail p span.red{    
+    color: red;
+}
+
+.activity-detail p span.green{    
+    color: green;
 }
