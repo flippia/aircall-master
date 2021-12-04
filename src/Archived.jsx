@@ -45,7 +45,7 @@ const Archived = () => {
                 <div className="calls-displayed">
                     {data.filter(call => call.is_archived).map(oneData => (
                         <Link to={`/${oneData.id}`} className="one-call" key={oneData.id}>
-                            <div className="first-line" >{oneData.from} <button id={oneData.id} onClick={unArchiveHandler}>Unarchive</button></div>
+                            <div className="first-line" >From: {oneData.from} <button id={oneData.id} onClick={unArchiveHandler}>Unarchive</button></div>
                             <div>{new Date(oneData.created_at).toLocaleString('en-US')}</div>
                         </Link>
                     ))}
