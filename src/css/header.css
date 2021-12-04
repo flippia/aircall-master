@@ -1,0 +1,35 @@
+header {
+  height: 40px;
+  margin: 0 auto;
+  padding: 20px 0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+header .logo {
+  padding: 0 1rem;
+}
+
+header svg {
+  display: block;
+  width: 100%; height: 100%;
+}
+
+header .links{
+  margin-left: auto;
+  margin-right: 0.2rem;
+  margin-top: auto;
+}
+
+header .links a{
+  padding: 0.5rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  color: black;
+  font-weight: bold;
+}
+
+header .links a.active{
+  background-color: rgb(35,49,66);
+  color: white;
+}

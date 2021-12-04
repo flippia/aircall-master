@@ -1,0 +1,35 @@
+.archived {
+    /* height: 19rem;    
+    margin: 0 2rem; */
+    background-color: white;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.archived .calls-displayed {
+    display: flex;
+    flex-direction: column;
+}
+
+.archived .calls-displayed a {
+    text-decoration: none;
+    color: black;
+}
+
+.archived .one-call {
+    box-shadow: 0 0.1rem 0.3rem rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.2rem 0.5rem;
+}
+
+.archived .one-call .first-line{
+    display: flex;
+}
+
+.archived .one-call .first-line button{
+    margin-left: auto;
+}

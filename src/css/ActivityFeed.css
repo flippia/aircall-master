@@ -1,0 +1,35 @@
+.activity-feed {
+    /* height: 19rem;    
+    margin: 0 2rem; */
+    background-color: white;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.activity-feed .calls-displayed {
+    display: flex;
+    flex-direction: column;
+}
+
+.activity-feed .calls-displayed a {
+    text-decoration: none;
+    color: black;
+}
+
+.activity-feed .one-call {
+    box-shadow: 0 0.1rem 0.3rem rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.2rem 0.5rem;
+}
+
+.activity-feed .one-call .first-line{
+    display: flex;
+}
+
+.activity-feed .one-call .first-line button{
+    margin-left: auto;
+}
