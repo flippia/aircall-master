@@ -17,16 +17,24 @@ header svg {
 
 header .links{
   margin-left: auto;
-  margin-right: 0.2rem;
+  margin-right: 0.5rem;
   margin-top: auto;
 }
 
 header .links a{
-  padding: 0.5rem;
+  padding: 0.35rem 0.35rem 1rem 0.35rem;
   text-decoration: none;
-  border-radius: 0.5rem;
-  color: black;
+  border-radius: 0.5rem 0.5rem 0 0;
+  margin: 0 0.15rem;
+  color: rgb(151,151,151);
   font-weight: bold;
+  font-size: 1rem;
+  transition: 200ms ease-in-out;
+}
+
+header .links a:hover{
+  background-color: cadetblue;
+  color: white;
 }
 
 header .links a.active{
