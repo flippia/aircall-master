@@ -23,11 +23,14 @@ const ActivityDetail = () => {
         <div className="activity-detail">
             {data ?
                 <div>
-                    <h2>From {data.from}</h2>
-                    <h2>To {data.to}</h2>
+                    <p>From {data.from}</p>
+                    <p>To {data.to}</p>
                     <p>via {data.via}</p>
                     <p>at {data.created_at}</p>
-                    <p><span>{data.call_type}</span></p>                    
+                    <p>
+                        <span className={`${data.call_type === 'answered' ? 'green' : ''} ${data.call_type === 'missed' ? 'red' : ''}`}>{data.call_type}
+                        </span>
+                    </p>
                 </div>
                 : <div>Trying to access the data...</div>
             }
